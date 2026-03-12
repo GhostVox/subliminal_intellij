@@ -8,7 +8,7 @@
     <name>Subliminal</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="Ghostvox@Icloud.com" url="https://github.com/ghostvox">Ghostvox</vendor>
+    <vendor email="Ghostvox@Icloud.com" url="https://github.com/GhostVox/subliminal_intellij">Ghostvox</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
@@ -21,7 +21,7 @@
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
-
+s
     <resource-bundle>messages.MyMessageBundle</resource-bundle>
     <!-- Extensions defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
