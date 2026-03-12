@@ -1,4 +1,4 @@
-<img src = "./src/main/resources/META-INF/pluginIcon.svg" width="100" style="display: block; margin: auto">
+<img src = "./screenshots/logo.png">
 
 # Subliminal IntelliJ   
 
