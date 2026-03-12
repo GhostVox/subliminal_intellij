@@ -1,12 +1,6 @@
-<div style="display: flex; align-items: center; justify-content: center;">
-  <h1 style="display: flex; align-items: center; margin: 0; padding: 0;">
-    <img src="./src/main/resources/META-INF/pluginIcon.svg" 
-         width="80" 
-         style="margin-right: -25px; display: block; object-fit: contain;" />
-    <span style="padding-left: 0;">ubliminal</span>
-    <span style="font-weight: normal; margin-left: 10px; color: #888;">— IntelliJ Theme</span>
-  </h1>
-</div>
+<img src = "./src/main/resources/META-INF/pluginIcon.svg" width="100" style="display: block; margin: auto">
+
+# Subliminal IntelliJ   
 
 
 
