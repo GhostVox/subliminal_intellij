@@ -43,7 +43,7 @@
       "focusedBorderColor": "#F5906A",
       "disabledBorderColor": "#30363d",
       "default.background": "#F5906A",
-      "default.foreground": "#0d1117",
+      "default.foreground": "#fef6fd",
       "default.startBackground": "#F5906A",
       "default.endBackground": "#F5906A",
       "default.startBorderColor": "#F5906A",
@@ -73,15 +73,20 @@
       "ArrowButton.disabledIconColor": "#7d8590",
       "ArrowButton.iconColor": "#8b949e"
     },
-    "CompletionPopup": {
-      "background": "#161b22",
+    "Lookup": {
+      "background": "#1c2128",
       "foreground": "#fef6fd",
       "selectionBackground": "#21262d",
       "selectionForeground": "#fef6fd",
-      "selectionInactiveBackground": "#1c2128",
       "matchForeground": "#F5906A",
-      "nonFocusedMask": "#0d1117"
+      "secondaryForeground": "#8b949e"
     },
+    "CompletionPopup": {
+      "matchForeground": "#F5906A",
+      "selectionBackground": "#21262d",
+      "selectionInactiveBackground": "#1c2128"
+    },
+
     "Component": {
       "borderColor": "#30363d",
       "disabledBorderColor": "#21262d",
@@ -101,7 +106,6 @@
     "DragAndDrop": {
       "areaBackground": "#21262d",
       "areaForeground": "#fef6fd",
-      "areaBorderColor": "#4D6A80",
       "backgroundWithFiles": "#1c2128",
       "rowBackground": "#21262d"
     },
@@ -119,7 +123,6 @@
       "underlineColor": "#F5906A",
       "inactiveUnderlineColor": "#4D6A80",
       "underlineHeight": "2",
-      "selectedBackground": "#0d1117",
       "selectedForeground": "#fef6fd",
       "hoverBackground": "#1c2128",
       "inactiveColoredFileBackground": "#161b22",
@@ -185,8 +188,7 @@
       "disabledForeground": "#7d8590",
       "selectionBackground": "#21262d",
       "selectionForeground": "#fef6fd",
-      "acceleratorForeground": "#8b949e",
-      "acceleratorSelectionForeground": "#fef6fd"
+      "acceleratorForeground": "#8b949e"
     },
     "Notification": {
       "background": "#161b22",
