@@ -278,6 +278,8 @@
       "endBackground": "#A8FFDD33"
     },
     "Separator": {
+
+
       "separatorColor": "#30363d"
     },
     "SidePanel": {
@@ -296,7 +298,7 @@
       "foreground": "#fef6fd"
     },
     "StatusBar": {
-      "background": "#4D6A80",
+      "background": "#161b22",
       "foreground": "#fef6fd",
       "borderColor": "#30363d",
       "Widget.hoverBackground": "#4d6a80",
