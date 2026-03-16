@@ -235,6 +235,98 @@
         </option>
         <!--        endregion c/c++-->
 
+        <!-- region typescript -->
+        <option name="TS.ENUM">
+            <value>
+                <option name="FOREGROUND" value="f5906a" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="TS.ENUM_MEMBER">
+            <value>
+                <option name="FOREGROUND" value="c5bc91" />
+                <option name="FONT_TYPE" value="3" />
+            </value>
+        </option>
+        <option name="TS.EXPORTED_CLASS">
+            <value>
+                <option name="FOREGROUND" value="ff9f43" />
+            </value>
+        </option>
+        <option name="TS.EXPORTED_FUNCTION">
+            <value>
+                <option name="FOREGROUND" value="e59494" />
+                <option name="FONT_TYPE" value="3" />
+            </value>
+        </option>
+        <option name="TS.EXPORTED_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="cd9fe9" />
+                <option name="FONT_TYPE" value="3" />
+            </value>
+        </option>
+        <option name="TS.GLOBAL_FUNCTION">
+            <value>
+                <option name="FOREGROUND" value="d6acac" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="TS.GLOBAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="cd9fe9" />
+                <option name="FONT_TYPE" value="3" />
+            </value>
+        </option>
+        <option name="TS.INSTANCE_MEMBER_FUNCTION">
+            <value>
+                <option name="FOREGROUND" value="d6acac" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="TS.INSTANCE_MEMBER_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="8fbdc6" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="TS.INTERFACE">
+            <value>
+                <option name="FOREGROUND" value="f5906a" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="TS.KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="2f6b85" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="TS.LOCAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="fef6fd" />
+            </value>
+        </option>
+        <option name="TS.MODULE_NAME">
+            <value>
+                <option name="FOREGROUND" value="cd9fe9" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="TS.PRIMITIVE.TYPES">
+            <value>
+                <option name="FOREGROUND" value="ff9f43" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="TS.TYPE.ALIAS">
+            <value>
+                <option name="FOREGROUND" value="f5906a" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+
+        <!-- endregion typescript -->
+
         <!--        region  rust-->
         <option name="RUST_ATTRIBUTE">
             <value>
