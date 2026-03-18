@@ -1,12 +1,11 @@
 plugins {
     id("java")
-    id("org.jetbrains.kotlin.jvm") version "2.1.20"
     id("org.jetbrains.intellij.platform") version "2.10.2"
 
 }
 
 group = "com.ghost"
-version = "1.0.2"
+version = "1.1.0"
 
 repositories {
     mavenCentral()
@@ -38,6 +37,11 @@ intellijPlatform {
             Initial version
         """.trimIndent()
     }
+    pluginVerification{
+        ides{
+            recommended()
+        }
+    }
 }
 
 tasks {
@@ -48,8 +52,4 @@ tasks {
     }
 }
 
-kotlin {
-    compilerOptions {
-        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21)
-    }
-}
+

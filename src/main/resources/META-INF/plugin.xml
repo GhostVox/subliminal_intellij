@@ -13,20 +13,22 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-      A high-contrast, professional dark theme ported from the Subliminal Neovim setup.
-      Optimized for long coding sessions with a focus on readability and
-      aesthetic consistency across the terminal and IDE
+         A high-contrast professional theme ported from the Subliminal Neovim setup.
+          Available in dark and light variants. Optimized for long coding sessions with
+          a focus on readability and aesthetic consistency across the terminal and IDE.
+
     ]]></description>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
-s
+
     <!-- Extensions defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
 
         <themeProvider id="c74d70e0-7a53-47ae-990b-377613c3ae83" path="/subliminal.theme.json"/>
+        <themeProvider id="cb0014f2-ed79-4068-8047-7a68d73b621b" path="/subliminal-light.theme.json"/>
 
     </extensions>
 </idea-plugin>
